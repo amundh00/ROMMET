@@ -112,6 +112,8 @@ header > a > div > h1{
 
 .header-nav > ul > li:hover{
     transform: scale(1.2);
+    text-decoration: underline;
+    color: white;
 }
 
 .kjop-billett{
