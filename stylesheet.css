@@ -1,7 +1,6 @@
 body{
-    font-family: 'lemonregular', Arial, Helvetica, sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     min-height: 100vh;
-
     margin: 0;
     padding: 0;
     margin-top: 0;
@@ -31,17 +30,21 @@ header{
     height: 150px;
 }
 
+header > a{
+    
+}
+
 header > a > img{
     width: 100px;
     height: auto;
 }
 
-header > div > p{
+header > a > div > p{
     padding: 0;
     margin: 0;
 }
 
-header > div > h1{
+header > a > div > h1{
     padding: 0;
     margin: 0;
 }
@@ -66,6 +69,34 @@ header > div > h1{
     padding: 3px;
     border: solid 2px #2589D9;
     border-radius: 5px;
+}
+
+.name_container > p{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+#name{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+#name > p{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.1s ease-in-out;
+}
+
+#name > p:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
 }
 
 
