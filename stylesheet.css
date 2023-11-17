@@ -122,6 +122,10 @@ header > a > div > h1{
     border-radius: 5px;
 }
 
+.kjop-billett:hover{
+    background-color: #2589D9;
+}
+
 /**************
   INDEX MAIN
 **************/
@@ -142,43 +146,44 @@ footer{
     background: linear-gradient(to top, #393939, transparent);
     color: black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 200px;
 }
 
-footer{
+footer > div > p{
+    margin: 0;
+}
+
+.footer-container{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     height: 150px;
-    background: linear-gradient(to top, #393939, transparent);
 }
 
-footer > div{
-    margin: 150px;
+.footer-container > div{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-footer > div > a{
+.footer-container > div > a{
     text-decoration: none;
 }
 
-footer > div > a > img{
+.footer-container > div > a > img{
     width: 100px;
     height: auto;
 }
 
-footer > div > a > div > p{
+.footer-container > div > a > div > p{
     padding: 0;
     margin: 0;
 }
 
-footer > a > div > h1{
+.footer-container > a > div > h1{
     padding: 0;
     margin: 0;
 }
