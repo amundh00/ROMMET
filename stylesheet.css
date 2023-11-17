@@ -1,9 +1,9 @@
-body{
+html, body{
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     min-height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
-    margin-top: 0;
 }
 
 h1{
@@ -28,18 +28,27 @@ header{
     align-items: center;
     justify-content: center;
     height: 150px;
+    background: linear-gradient(to bottom, #393939, transparent);
 }
 
-header > a{
-    
+header > div{
+    margin: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-header > a > img{
+header > div > a{
+    text-decoration: none;
+}
+
+header > div > a > img{
     width: 100px;
     height: auto;
 }
 
-header > a > div > p{
+header > div > a > div > p{
     padding: 0;
     margin: 0;
 }
@@ -47,28 +56,6 @@ header > a > div > p{
 header > a > div > h1{
     padding: 0;
     margin: 0;
-}
-
-.header-nav > ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.header-nav > ul > li > a{
-    text-decoration: none;
-    list-style: none;
-    color: white;
-}
-
-.header-nav > ul > li{
-    padding-left: 20px;
-}
-
-.kjop-billett{
-    padding: 3px;
-    border: solid 2px #2589D9;
-    border-radius: 5px;
 }
 
 .name_container > p{
@@ -99,9 +86,125 @@ header > a > div > h1{
     transform: translateY(-10px);
 }
 
+.header-nav > ul{
+    font-size: 20px;    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header-nav > ul > li > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.header-nav > ul > li > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.header-nav > ul > li{
+    padding-left: 20px;
+    transition: transform 0.3s ease;
+}
+
+.header-nav > ul > li:hover{
+    transform: scale(1.2);
+}
+
+.kjop-billett{
+    padding: 3px;
+    border: solid 2px #2589D9;
+    border-radius: 5px;
+}
+
+/**************
+  INDEX MAIN
+**************/
+
+main{
+    height: 1000px;
+}
+
 
 
 /***********
    FOOTER
 ***********/
 
+footer{
+    margin-top: 0px;
+    padding: 10px 15%;
+    background: linear-gradient(to top, #393939, transparent);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background: linear-gradient(to top, #393939, transparent);
+}
+
+footer > div{
+    margin: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div > a{
+    text-decoration: none;
+}
+
+footer > div > a > img{
+    width: 100px;
+    height: auto;
+}
+
+footer > div > a > div > p{
+    padding: 0;
+    margin: 0;
+}
+
+footer > a > div > h1{
+    padding: 0;
+    margin: 0;
+}
+
+.name_container > p{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.footer-nav > ul{
+    font-size: 20px; 
+    list-style: none;
+}
+
+.footer-nav > ul > li{
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.footer-nav > ul > li:hover{
+    transform: scale(1.2);
+}
+
+.footer-nav > ul > li > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
