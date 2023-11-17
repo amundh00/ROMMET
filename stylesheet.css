@@ -1,0 +1,76 @@
+body{
+    font-family: 'lemonregular', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    background-color: #111111;
+}
+
+h1, h2, h3, p{
+    color: white;
+}
+
+/**************
+    HEADER
+**************/
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+header > a > img{
+    width: 100px;
+    height: auto;
+}
+
+header > div > p{
+    padding: 0;
+    margin: 0;
+}
+
+header > div > h1{
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header-nav > ul > li > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.header-nav > ul > li{
+    padding-left: 20px;
+}
+
+.kjop-billett{
+    padding: 3px;
+    border: solid 2px #2589D9;
+    border-radius: 5px;
+}
+
+
+
+/***********
+   FOOTER
+***********/
+
