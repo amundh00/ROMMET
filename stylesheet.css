@@ -15,7 +15,7 @@ html{
 }
 
 h1, h2, h3, p{
-    color: white;
+    color: #2589D9;
 }
 
 /**************
@@ -28,6 +28,7 @@ header{
     align-items: center;
     justify-content: center;
     height: 150px;
+    gap: 40%;
     background: linear-gradient(to bottom, #393939, transparent);
 }
 
@@ -172,6 +173,7 @@ nav > ul > li > a {
         align-items: center;
         justify-content: center;
         height: 150px;
+        gap: 0;
         background: linear-gradient(to bottom, #393939, transparent);
     }
     
@@ -440,3 +442,4 @@ footer > div > p{
     }
 
 }
+
