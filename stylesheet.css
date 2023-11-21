@@ -32,7 +32,7 @@ header{
 }
 
 header > div{
-    margin: 150px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -44,7 +44,7 @@ header > div > a{
 }
 
 header > div > a > img{
-    width: 100px;
+    width: 50px;
     height: auto;
 }
 
@@ -58,8 +58,18 @@ header > a > div > h1{
     margin: 0;
 }
 
+.kjop-billett{
+    padding: 3px;
+    border: solid 2px #2589D9;
+    border-radius: 5px;
+}
+
+.kjop-billett:hover{
+    background-color: #2589D9;
+}
+
 .name_container > p{
-    font-size: 16px;
+    font-size: 5px;
     margin: 0;
     padding: 0;
     cursor: pointer;
@@ -69,7 +79,7 @@ header > a > div > h1{
     display: flex;
     flex-direction: row;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 15px;
     margin: 0;
     padding: 0;
 }
@@ -86,45 +96,171 @@ header > a > div > h1{
     transform: translateY(-10px);
 }
 
-.header-nav > ul{
-    font-size: 20px;    
+/*
+HAMBURGER MENU
+*/
+
+.fa-bars{
+    color: white;
+}
+
+.menu-container{
+    margin-left: 50px;
+}
+
+nav{
+    display: none;
+}
+
+input#hamburger-menu {
+    display: none;
+}
+
+input#hamburger-menu:checked ~ nav{
+    display: block;
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    background-color: rgba(17, 17, 17, 0.5);
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+label[for=hamburger-menu] {
+    display: inline-block;
+    width: 100%;
+    margin: 16px 0;
+    font-size: 2em;
+    text-align: right;
+}
+
+nav > ul > li > a:hover{
+    color:  white;
+    scale: 1.2;
+}
+ 
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    list-style: none;
+    flex-direction: column;
 }
 
-.header-nav > ul > li > a{
+nav > ul > li{
+    width: 100%;
+    text-align: center;
+}
+
+nav > ul > li > a {
+    display: inline-block;
     text-decoration: none;
-    list-style: none;
+    padding: 4px 10px;
     color: white;
+    text-align: center;
+    margin: 3px 0;
+    font-size: 20px;
+    font-size: 30px;
+    
 }
 
-.header-nav > ul > li > a{
-    text-decoration: none;
-    list-style: none;
-    color: white;
+@media (min-width: 890px){
+
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        background: linear-gradient(to bottom, #393939, transparent);
+    }
+    
+    header > div{
+        margin: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header > div > a{
+        text-decoration: none;
+    }
+    
+    header > div > a > img{
+        width: 100px;
+        height: auto;
+    }
+    
+    header > div > a > div > p{
+        padding: 0;
+        margin: 0;
+    }
+    
+    header > a > div > h1{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .name_container > p{
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    #name{
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        font-size: 35px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #name > p{
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        transition: transform 0.1s ease-in-out;
+    }
+    
+    #name > p:hover{
+        cursor: pointer;
+        transform: translateY(-10px);
+    }
+    
+
+    label[for=hamburger-menu] {
+        display: none;
+    }
+
+    nav{
+        margin-top: 0;
+        display: block;
+    }
+
+    nav > ul{
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        height: 64px;
+
+    }
+
+    nav > ul > li > a{
+        width: 100px; 
+        margin: 0 0 0 20px;
+        font-size: 20px;
+    }
+
 }
 
-.header-nav > ul > li{
-    padding-left: 20px;
-    transition: transform 0.3s ease;
-}
 
-.header-nav > ul > li:hover{
-    transform: scale(1.2);
-    text-decoration: underline;
-    color: white;
-}
 
-.kjop-billett{
-    padding: 3px;
-    border: solid 2px #2589D9;
-    border-radius: 5px;
-}
 
-.kjop-billett:hover{
-    background-color: #2589D9;
-}
+
 
 /**************
   INDEX MAIN
