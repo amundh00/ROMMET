@@ -137,7 +137,6 @@ label[for=hamburger-menu] {
 
 nav > ul > li > a:hover{
     color:  white;
-    scale: 1.2;
 }
  
 nav > ul {
@@ -253,8 +252,12 @@ nav > ul > li > a {
         width: 100px; 
         margin: 0 0 0 20px;
         font-size: 20px;
+        transition: transform 0.3s ease;
     }
 
+    nav > ul > li > a:hover{
+        transform: scale(1.2);
+    }
 }
 
 
@@ -290,6 +293,7 @@ footer{
 
 footer > div > p{
     margin: 0;
+    font-size: 10px;
 }
 
 .footer-container{
@@ -338,6 +342,7 @@ footer > div > p{
 
 .footer-nav > ul > li{
     margin-top: 10px;
+    width: 100px;
     transition: transform 0.3s ease;
 }
 
@@ -347,7 +352,88 @@ footer > div > p{
 
 .footer-nav > ul > li > a{
     text-decoration: none;
+    font-size: 15px;
     list-style: none;
     color: white;
     
+}
+
+@media (min-width: 800px){
+
+    footer{
+        margin-top: 0px;
+        padding: 10px 15%;
+        background: linear-gradient(to top, #393939, transparent);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+
+    footer > div > p{
+        margin: 0;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        height: 150px;
+    }
+
+    .footer-container > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-container > div > a{
+        text-decoration: none;
+    }
+
+    .footer-container > div > a > img{
+        width: 100px;
+        height: auto;
+    }
+
+    .footer-container > div > a > div > p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-container > a > div > h1{
+        padding: 0;
+        margin: 0;
+    }
+
+    .name_container > p{
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .footer-nav > ul{
+        font-size: 20px; 
+        list-style: none;
+    }
+
+    .footer-nav > ul > li{
+        margin-top: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .footer-nav > ul > li:hover{
+        transform: scale(1.2);
+    }
+
+    .footer-nav > ul > li > a{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        
+    }
+
 }
