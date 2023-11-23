@@ -18,6 +18,10 @@ h1, h2, h3, p{
     color: #2589D9;
 }
 
+main{
+    margin: 0 160px 0 160px
+}
+
 /**************
     HEADER
 **************/
@@ -172,7 +176,6 @@ nav > ul > li > a {
 
 main{
     height: 1000px;
-    margin: 0 160px 0 160px;
 }
 
 main > img{
@@ -182,7 +185,25 @@ main > img{
     transform: translate(-50%, -50%);
 }
 
+.index-main > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
 
+.index-main > div > h1{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.index-main > div > p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
 
 /***********
    FOOTER
