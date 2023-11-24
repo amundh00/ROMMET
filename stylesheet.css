@@ -17,14 +17,18 @@ html{
 
 h1, h2, h3, p{
     color: #2589D9;
+    margin: 0;
+    padding: 0;
 }
 
 p{
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 main{
-    margin: 0 20px 0 20px
+    margin: 0 5% 0 5%
 }
 
 /**************
@@ -37,8 +41,8 @@ header{
     align-items: center;
     justify-content: center;
     height: 150px;
-    gap: 40%;
     background: linear-gradient(to bottom, #393939, transparent);
+    width: 100%;
 }
 
 #name > p{
@@ -131,11 +135,14 @@ input#hamburger-menu {
 }
 
 input#hamburger-menu:checked ~ nav{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 160px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: rgba(17, 17, 17, 0.9);
     position: absolute;
-    background-color: rgba(17, 17, 17, 0.5);
     left: 50%;
     top: 25%;
     transform: translate(-50%, -50%);
@@ -183,24 +190,20 @@ nav > ul > li > a {
   INDEX MAIN
 **************/
 
-main{
-    height: 1000px;
-}
-
 main > img{
     position: absolute;
-    top: 35%;
-    left: 5%;
+    top: 150px;
+    left: -40px;
     transform: translate(-50%, -50%);
     z-index: -1;
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
 .index-main{
     margin-top: 0px;
     display: flex;
-    justify-content: center;
+    margin-top: 50px;
     align-items: center;
     flex-direction: column;
 }
@@ -208,7 +211,6 @@ main > img{
 .index-main > div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: left;
     width: 90%;
     height: auto;
@@ -227,6 +229,31 @@ main > img{
 .index-main > div > p{
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+.opening-container{
+    margin: 25px 0 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dager-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.dag{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.opening-container > div > h2, h3, p{
     color: white;
 }
 
