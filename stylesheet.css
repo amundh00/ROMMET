@@ -279,18 +279,26 @@ main > img{
     padding: 20px;
     margin: 25px 0 25px 0;
     border-radius: 5px;
+    width: 300px;
+    height: 350px;
+    
 }
 
 .cards > p{
     font-size: 15px;
 }
 
-.atraction-cards > a > div > img{
+.cards > img{
     width: 100%;
     height: auto;
     border-radius: 5px;
     margin: 0 0 10px 0;
+    max-width: auto;
+    max-height: 300px;
+    overflow: hidden;
 }
+
+
 
 /***********
    FOOTER
