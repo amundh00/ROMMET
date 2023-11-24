@@ -266,6 +266,10 @@ main > img{
     flex-direction: column;
 }
 
+.atraction-cards > a{
+    text-decoration: none;
+}
+
 .cards{
     display: flex;
     flex-direction: column;
@@ -273,17 +277,19 @@ main > img{
     justify-content: center;
     background-color: #565555;
     padding: 20px;
+    margin: 25px 0 25px 0;
     border-radius: 5px;
 }
 
 .cards > p{
-    font-size: 15px;
+    font-size: 15px231;
 }
 
-.atraction-cards > div > img{
+.atraction-cards > a > div > img{
     width: 100%;
     height: auto;
     border-radius: 5px;
+    margin: 0 0 10px 0;
 }
 
 /***********
