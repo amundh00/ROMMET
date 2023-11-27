@@ -414,7 +414,14 @@ footer > div > p{
     header > div > a > img{
         width: 100px;
         height: auto;
+        transition: transform 0.5s;
     }
+
+    header > div > a > img:hover{
+        transform: scale(1.1);
+    }
+
+
     
     header > div > a > div > p{
         padding: 0;
@@ -514,8 +521,12 @@ footer > div > p{
 
     .atraction-cards > a{
         margin: 0 20px 0;
+        transition: transform 0.5s;
     }
     
+    .atraction-cards > a:hover{
+        transform: scale(1.1);
+    }
 
      /**********
     FOOTER 800px
