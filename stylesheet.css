@@ -210,8 +210,7 @@ main > img{
 }
 
 .index-main > div{
-    display: flex;
-    flex-direction: column;
+    
     text-align: left;
     width: 90%;
     height: auto;
@@ -236,6 +235,7 @@ main > img{
 .opening-container{
     margin: 25px 0 25px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -259,6 +259,8 @@ main > img{
 }
 
 .atraction-cards{
+    display: flex;
+    flex-direction: column;
     margin: 25px 0 25px 0;
     align-items: center;
     justify-content: center;
@@ -381,7 +383,7 @@ footer > div > p{
     
 }
 
-@media (min-width: 800px){
+@media (min-width: 1000px){
 
     /**********
     HEADER 800px
@@ -481,6 +483,10 @@ footer > div > p{
         transform: scale(1.2);
     }
 
+    /**************
+      Index Main
+    **************/
+
     .dager-container{   
         grid-template-columns: auto auto auto auto auto auto auto;
         grid-template-rows: auto;
@@ -500,6 +506,16 @@ footer > div > p{
         width: 600px;
         height: auto;
     }
+
+    .atraction-cards{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .atraction-cards > a{
+        margin: 0 20px 0 20px;
+    }
+    
 
      /**********
     FOOTER 800px
