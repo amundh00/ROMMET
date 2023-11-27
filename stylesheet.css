@@ -499,6 +499,7 @@ footer > div > p{
 
     .opening-container{
         margin: 0;
+        padding: 20px 0 20px 0;
     }
 
     main > img{
@@ -524,6 +525,7 @@ footer > div > p{
 
     .info-main{
         width: 900px;
+        padding: 20px 0 20px 0;
     }
 
      /**********
