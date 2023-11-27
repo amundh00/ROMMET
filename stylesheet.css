@@ -481,6 +481,26 @@ footer > div > p{
         transform: scale(1.2);
     }
 
+    .dager-container{   
+        grid-template-columns: auto auto auto auto auto auto auto;
+        grid-template-rows: auto;
+    }
+
+    .opening-container > div > h2{
+        margin: 0 0 20px 0;
+    }
+
+    .index-main > div{
+        width: 800px;
+    }
+
+    main > img{
+        top: 400px;
+        left: -30px;
+        width: 600px;
+        height: auto;
+    }
+
      /**********
     FOOTER 800px
     **********/
