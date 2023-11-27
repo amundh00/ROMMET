@@ -209,13 +209,6 @@ main > img{
     flex-direction: column;
 }
 
-.index-main > div{
-    
-    text-align: left;
-    width: 90%;
-    height: auto;
-}
-
 .index-main > hr{
     width: 90%;
 }
@@ -495,16 +488,17 @@ footer > div > p{
     **************/
 
     .dager-container{   
-        grid-template-columns: auto auto auto auto auto auto auto;
-        grid-template-rows: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .opening-container > div > h2{
         margin: 0 0 20px 0;
     }
 
-    .index-main > div{
-        width: 800px;
+    .opening-container{
+        margin: 0;
     }
 
     main > img{
@@ -526,6 +520,10 @@ footer > div > p{
     
     .atraction-cards > a:hover{
         transform: scale(1.1);
+    }
+
+    .info-main{
+        width: 900px;
     }
 
      /**********
