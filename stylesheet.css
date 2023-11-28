@@ -37,12 +37,15 @@ main{
 **************/
 
 header{
+    background: linear-gradient(to bottom, #393939, transparent);
+}
+
+.header-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 150px;
-    background: linear-gradient(to bottom, #393939, transparent);
     width: 100%;
 }
 
@@ -50,7 +53,7 @@ header{
     font-size: 40px;
 }
 
-header > div{
+.header-container > div{
     margin: 10px;
     display: flex;
     flex-direction: row;
@@ -58,21 +61,21 @@ header > div{
     align-items: center;
 }
 
-header > div > a{
+.header-container > div > a{
     text-decoration: none;
 }
 
-header > div > a > img{
+.header-container > div > a > img{
     width: 50px;
     height: auto;
 }
 
-header > div > a > div > p{
+.header-container > div > a > div > p{
     padding: 0;
     margin: 0;
 }
 
-header > a > div > h1{
+.header-container > a > div > h1{
     padding: 0;
     margin: 0;
 }
@@ -381,47 +384,48 @@ footer > div > p{
     /**********
     HEADER 800px
     **********/
-
     header{
+        background: linear-gradient(to bottom, #393939, transparent);
+    }
+
+    .header-container{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         height: 150px;
-        gap: 0;
-        background: linear-gradient(to bottom, #393939, transparent);
+        gap: 150px;
     }
     
-    header > div{
-        margin: 50px;
+    .header-container > div{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
     
-    header > div > a{
+    .header-container > div > a{
         text-decoration: none;
     }
     
-    header > div > a > img{
+    .header-container > div > a > img{
         width: 100px;
         height: auto;
         transition: transform 0.5s;
     }
 
-    header > div > a > img:hover{
+    .header-container > div > a > img:hover{
         transform: scale(1.1);
     }
 
 
     
-    header > div > a > div > p{
+    .header-container > div > a > div > p{
         padding: 0;
         margin: 0;
     }
     
-    header > a > div > h1{
+    .header-container > a > div > h1{
         padding: 0;
         margin: 0;
     }
