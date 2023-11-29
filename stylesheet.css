@@ -284,21 +284,28 @@ main > img{
     border-radius: 5px;
     width: 300px;
     height: 350px;
-    
+    overflow: hidden;
 }
 
 .cards > p{
     font-size: 15px;
 }
 
-.cards > img{
+.card-info{
+    height: 50%;
+}
+
+.card-foto{
+    height: 50%;
+    width: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.cards > div > img{
+    overflow: hidden;
     width: 100%;
     height: auto;
-    border-radius: 5px;
-    margin: 0 0 10px 0;
-    max-width: auto;
-    max-height: 300px;
-    overflow: hidden;
 }
 
 
@@ -548,6 +555,13 @@ footer > div > p{
         width: 900px;
         padding: 20px 0 20px 0;
     }
+
+    /***************
+    Attraksjon side
+    ***************/
+
+    
+
 
      /**********
     FOOTER 800px
