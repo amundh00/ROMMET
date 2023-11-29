@@ -201,9 +201,9 @@ nav > ul > li > a {
   INDEX MAIN
 **************/
 
-main > img{
+.backround-img-left{
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: -40px;
     transform: translate(-50%, -50%);
     z-index: -1;
@@ -211,8 +211,17 @@ main > img{
     height: auto;
 }
 
-.index-main{
-    margin-top: 0px;
+.backround-img-right{
+    position: absolute;
+    top: 650px;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 250px;
+    height: auto;
+}
+
+main{
     display: flex;
     margin-top: 50px;
     align-items: center;
@@ -235,6 +244,10 @@ main > img{
     color: white;
 }
 
+.info-main{
+    width: 80%;
+}
+
 .opening-container{
     margin: 25px 0 25px 0;
     display: flex;
@@ -252,6 +265,7 @@ main > img{
     display: flex;
     margin-left: 25px;
     margin-right: 25px;
+    margin-top: 25px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -302,11 +316,36 @@ main > img{
     border-radius: 5px;
 }
 
-.cards > div > img{
+.card-foto > img{
     overflow: hidden;
     width: 100%;
     height: auto;
 }
+
+
+/****************
+Attraksjon side
+****************/
+
+.attraction-containter{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.attraction-containter > div{
+    height: 50%;
+    width: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.attraction-containter > div > img{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -431,8 +470,6 @@ footer > div > p{
     .header-container > div > a > img:hover{
         transform: scale(1.1);
     }
-
-
     
     .header-container > div > a > div > p{
         padding: 0;
@@ -530,9 +567,16 @@ footer > div > p{
         padding: 20px 0 20px 0;
     }
 
-    main > img{
+    .backround-img-left{
         top: 400px;
         left: -30px;
+        width: 600px;
+        height: auto;
+    }
+
+    .backround-img-right{
+        top: 900px;
+        left: 100%;
         width: 600px;
         height: auto;
     }
@@ -554,6 +598,10 @@ footer > div > p{
     .info-main{
         width: 900px;
         padding: 20px 0 20px 0;
+    }
+
+    .dag{
+        margin-top: 0;
     }
 
     /***************
