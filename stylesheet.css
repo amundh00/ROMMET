@@ -15,11 +15,18 @@ html{
     background-color: #111111;
 }
 
-h1, h2, h3, p{
-    color: #2589D9;
+h1, h3, p{
+    color: white;
     margin: 0;
     padding: 0;
     font-size: 20px;
+}
+
+h2{
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 p{
@@ -409,7 +416,7 @@ footer > div > p{
     }
     
     .header-container > div > a > img{
-        width: 100px;
+        width: 80px;
         height: auto;
         transition: transform 0.5s;
     }
