@@ -351,7 +351,7 @@ Attraksjon side
 }
 
 #attraksjoner-info{
-    width: 900px;
+    width: 80%;
 }
 
 #attraksjoner-info > h2{
@@ -414,6 +414,40 @@ input[type="radio"]{
 
 .accordion input[type="radio"]:checked + #accordion_label::before{
     content: '-';
+}
+
+.attraksjon-halvt-kort{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2589D9;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+}
+
+.attraksjon-halvt-kort > div{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.attraksjon-halvt-kort > div > img{
+    height: auto;
+    width: 100%;
+}
+
+.attraksjon-halvt-kort > div > p{
+    width: 50%;
+    text-align: left;
 }
 
 /***********
@@ -642,6 +676,37 @@ footer > div > p{
         justify-content: center;
         width: 900px;
         padding: 0;
+    }
+
+    #attraksjoner-info{
+        width: 900px;
+    }
+
+    .attraksjon-halvt-kort{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #2589D9;
+        border-radius: 5px;
+    }
+    
+    .attraksjon-halvt-kort > div{
+        width: 50%;
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .attraksjon-halvt-kort > div > img{
+        height: auto;
+        width: 100%;
     }
 
      /**********
