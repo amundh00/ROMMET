@@ -424,6 +424,7 @@ input[type="radio"]{
     justify-content: center;
     flex-direction: column;
     border-radius: 5px;
+    margin: 20px 0 20px 0;
 }
 
 .attraksjon-halvt-kort > div{
@@ -435,6 +436,7 @@ input[type="radio"]{
     text-align: center;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
     
 }
 
@@ -444,7 +446,7 @@ input[type="radio"]{
 }
 
 .attraksjon-halvt-kort > div > p{
-    width: 50%;
+    width: 90%;
     text-align: left;
 }
 
@@ -694,14 +696,15 @@ footer > div > p{
     }
 
     .attraksjon-halvt-kort{
-        height: 500px;
+        height: 300px;
         width: 900px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
         background-color: #2589D9;
-        border-radius: 5px;
+        border-radius: 0;
+        margin: 0;
     }
     
     .attraksjon-halvt-kort > div{
@@ -713,11 +716,17 @@ footer > div > p{
         text-align: center;
         align-items: center;
         justify-content: center;
+        border-radius: 0;
     }
     
     .attraksjon-halvt-kort > div > img{
         height: auto;
         width: 100%;
+    }
+
+    .attraksjon-halvt-kort > div > p{
+        width: 70%;
+        text-align: left;
     }
 
      /**********
