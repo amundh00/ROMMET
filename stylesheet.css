@@ -423,9 +423,7 @@ input[type="radio"]{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #2589D9;
     border-radius: 5px;
-    margin: 20px 0 20px 0;
 }
 
 .attraksjon-halvt-kort > div{
@@ -449,6 +447,19 @@ input[type="radio"]{
     width: 50%;
     text-align: left;
 }
+
+#en{
+    background-color: #c64f48;
+}
+
+#to{
+    background-color: #47434a;
+}
+
+#tre{
+    background-color: #9c908d;
+}
+
 
 /***********
    FOOTER
@@ -684,7 +695,7 @@ footer > div > p{
 
     .attraksjon-halvt-kort{
         height: 500px;
-        width: 100%;
+        width: 900px;
         display: flex;
         align-items: center;
         justify-content: center;
