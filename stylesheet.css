@@ -321,6 +321,11 @@ main{
     width: 100%;
     height: auto;
 }
+/***************
+KONTAKT SIDE
+***************/
+
+
 
 
 /****************
@@ -397,24 +402,11 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-}
-
-footer > div > p{
-    margin: 0;
-    font-size: 10px;
-}
-
-.footer-container{
-    display: flex;
-    flex-direction: row;
-    height: 150px;
+    height: 350px;
 }
 
 .footer-container > div{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
 }
 
@@ -422,50 +414,23 @@ footer > div > p{
     text-decoration: none;
 }
 
+footer > div > p{
+    margin: 0;
+    font-size: 10px;
+}
+
+.footer-info > p{
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+}
+
 .footer-container > div > a > img{
-    width: 100px;
+    width: 70px;
     height: auto;
 }
 
-.footer-container > div > a > div > p{
-    padding: 0;
-    margin: 0;
-}
 
-.footer-container > a > div > h1{
-    padding: 0;
-    margin: 0;
-}
-
-.name_container > p{
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-}
-
-.footer-nav > ul{
-    font-size: 20px; 
-    list-style: none;
-}
-
-.footer-nav > ul > li{
-    margin-top: 10px;
-    width: 100px;
-    transition: transform 0.3s ease;
-}
-
-.footer-nav > ul > li:hover{
-    transform: scale(1.2);
-}
-
-.footer-nav > ul > li > a{
-    text-decoration: none;
-    font-size: 15px;
-    list-style: none;
-    color: white;
-    
-}
 
 @media (min-width: 1000px){
 
@@ -662,77 +627,30 @@ footer > div > p{
         background: linear-gradient(to top, #393939, transparent);
         color: black;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         height: 200px;
     }
 
+    .footer-container > div{
+        margin: 50px;
+    }
+    
     footer > div > p{
         margin: 0;
+        font-size: 10px;
     }
-
-    .footer-container{
-        display: flex;
-        flex-direction: row;
-        height: 150px;
+    
+    .footer-info > p{
+        font-size: 15px;
+        text-align: center;
+        margin: 5px;
     }
-
-    .footer-container > div{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-container > div > a{
-        text-decoration: none;
-    }
-
+    
     .footer-container > div > a > img{
         width: 100px;
         height: auto;
-    }
-
-    .footer-container > div > a > div > p{
-        padding: 0;
-        margin: 0;
-    }
-
-    .footer-container > a > div > h1{
-        padding: 0;
-        margin: 0;
-    }
-
-    .name_container > p{
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        cursor: pointer;
-    }
-
-    .footer-nav > ul{
-        display: flex;
-        flex-direction: row;
-        font-size: 20px; 
-        list-style: none;
-    }
-
-    .footer-nav > ul > li{
-        margin-top: 10px;
-        width: 150px;
-        transition: transform 0.3s ease;
-    }
-
-    .footer-nav > ul > li:hover{
-        transform: scale(1.2);
-    }
-
-    .footer-nav > ul > li > a{
-        text-decoration: none;
-        font-size: 20px;
-        list-style: none;
-        color: white;
     }
 
 }
