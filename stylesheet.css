@@ -325,6 +325,30 @@ main{
 KONTAKT SIDE
 ***************/
 
+#google{
+    width: 300px;
+    height: 150px;
+    border: 0;
+}
+
+#map-embed{
+    margin: 20px 0 20px 0;
+}
+
+.contacttext{
+    width: 80%;
+}
+
+.contacttext > p{
+    margin-bottom: 20px;
+}
+
+.contacttext > h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* EROOR PAGE*/
 
 #error-page{
@@ -731,6 +755,37 @@ footer > div > p{
     .attraksjon-halvt-kort > div > p{
         width: 70%;
         text-align: left;
+    }
+
+    /***********
+    KONTAKT OSS
+    ***********/
+
+    #google{
+        width: 500px;
+        height: 300px;
+        border: 0;
+    }
+    
+    #map-embed{
+        margin: 20px 0 20px 0;
+    }
+    
+    .contacttext{
+        width: 900px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contacttext > p{
+        margin-bottom: 20px;
+    }
+    
+    .contacttext > h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
      /**********
