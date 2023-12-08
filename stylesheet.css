@@ -321,6 +321,45 @@ main{
     width: 100%;
     height: auto;
 }
+
+/***************
+SALG
+***************/
+
+#billett-salg{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr2 repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 3; }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 2 / 2 / 3 / 3; }
+.div4 { grid-area: 3 / 1 / 4 / 3; }
+
+#antall-billetter{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+}
+
+#antall-billetter > input{
+    height: 30px;
+    padding: 0;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: #393939;
+    font-size: 20px;
+    color: white;
+}
+
+#priser > p{
+    height: 30px;
+    padding: 5px;
+}
+
 /***************
 KONTAKT SIDE
 ***************/
