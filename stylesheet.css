@@ -326,19 +326,25 @@ main{
 SALG
 ***************/
 
+#billett-main{
+    min-height: 900px;
+}
+
 #billett-salg{
     display: flex;
     flex-direction: column;
     
 }
 
-#billett-salg > div{
-    margin: 50px;
+.billett-div1{
+    margin: 50px 0 100px 0;
+    width: 900px;
 }
 
 #antall-billetter{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 70px;
 }
 
@@ -354,17 +360,32 @@ SALG
 
 #priser{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
 }
 
 #priser > p{
+    height: 30px;
+    border: 2px;
+    margin: 3px;
+}
+
+#fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fields > p{
     height: 30px;
     padding: 5px;
 }
 
 #email{
+    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #email > input{
@@ -372,6 +393,15 @@ SALG
     border-radius: 5px;
     width: 200px;
     height: 20px;
+}
+
+#email > label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#billett-salg > div > label{
+    color: white;
 }
 
 /***************

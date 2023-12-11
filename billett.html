@@ -48,33 +48,41 @@
         </div>
     </header>
 
-    <main>
+    <main id="billett-main">
         <div id="billett-salg">
-            <div class="div1">
+            <div class="billett-div1">
                 <p>
-                    Billettene blir bare reservert i ditt navn!
+                    Billettene blir bare reservert i ditt navn! Du får en epost med billettene på.
                     Du betaler når du besøker oss!
                 </p>
             </div>
-            <div id="priser">
+            <div id="fields">
                 <div id="antall-billetter">
-                    <input type="number">
-                    <input type="number">
-                    <input type="number">
-                    <input type="number">
-                    <input type="number">
-                    <input type="number">
+                    <input type="number" placeholder="0">
+                    <input type="number" placeholder="0">
+                    <input type="number" placeholder="0">
+                    <input type="number" placeholder="0">
+                    <input type="number" placeholder="0">
+                    <input type="number" placeholder="0">
                 </div>
-                <div>
-                    <p>Barn 0-6 år: Gratis</p>
-                    <p>Barn 7-12 år: 50 kr</p>
-                    <p>Ungdom 13-17 år: 125 kr</p>
-                    <p>Voksen 18+ år: 200 kr</p>
-                    <p>Student: 100 kr</p>
-                    <p>Honør: 100 kr</p>
+                <div id="priser">
+                    <p>Barn 0-6 år:</p>
+                    <p>Barn 7-12 år:</p>
+                    <p>Ungdom 13-17 år:</p>
+                    <p>Voksen 18+ år:</p>
+                    <p>Student:</p>
+                    <p>Honør:</p>
+                </div>
+                <div id="priser">
+                    <p>Gratis</p>
+                    <p>50 kr</p>
+                    <p>125 kr</p>
+                    <p>200 kr</p>
+                    <p>100 kr</p>
+                    <p>100 kr</p>
                 </div>
             </div>
-            <div class="div4" id="email">
+            <div id="email">
                 <label for="email">Din E-post adresse:</label>
                 <input type="email" name="email" required>
                 <button type="submit">Kjøp</button>
