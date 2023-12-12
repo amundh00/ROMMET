@@ -39,7 +39,7 @@
                 <input type="checkbox" id="hamburger-menu">
                 <nav>
                 <ul>
-                    <li><a href="selskap.html">Selskap</a></li>
+                    <li><a href="atractions.html">Attraksjoner</a></li>
                     <li><a href="kontakt.html">Kontakt</a></li>
                     <li ><a class="kjop-billett" href="billett.html">Kjøp Billett</a></li>
                 </ul>
@@ -82,11 +82,12 @@
                     <p>100 kr</p>
                 </div>
             </div>
-            <div id="email">
-                <label for="email">Din E-post adresse:</label>
-                <input type="email" name="email" placeholder="email@mail.com" required>
-                <button type="submit">Kjøp</button>
-            </div>
+            <form id="email" action="confirm_ticket.html">
+                <p>Fyll ut nødvendig informasjon nedenfor:</p>
+                <input type="email" name="email" placeholder="Email@mail.com" required>
+                <input type="tel" placeholder="Telefon nr" required>
+                <button type="submit">Bestill</button>
+            </form>
         </div>
         <div id="selskap-salg">
 

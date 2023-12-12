@@ -402,12 +402,14 @@ SALG
     height: 20px;
     color: white;
     font-size: 20px;
+    margin: 5px;
 }
 
 #email > label{
     font-weight: bold;
     width: 200px;
     height: 20px;
+    color: white;
 }
 
 #email > button{
@@ -451,22 +453,51 @@ KONTAKT SIDE
     justify-content: center;
 }
 
-/* EROOR PAGE*/
-
-#error-page{
-    min-height: 1000px;
+#kontakt-form{
+    width: 80%;
+    margin: 0;
 }
 
-#error-page > a{
-    font-size: 25px;
+#kontakt-form > form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
-#error-page > p{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 25px;
+#input1 { grid-area: 1 / 1 / 2 / 2; }
+#input2 { grid-area: 2 / 1 / 2 / 3; }
+#input3 { grid-area: 3 / 1 / 3 / 3; }
+#input4 { grid-area: 4 / 1 / 4 / 3; }
+#input5 { grid-area: 5 / 1 / 5 / 3; }
+#input6 { grid-area: 6 / 1 / 6 / 3; }
+
+#kontakt-form > form > input{
+    background-color: #393939;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
 }
 
+#kontakt-form > form > textarea{
+    background-color: #393939;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+#kontakt-form > form > button{
+    background-color: #393939;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
 
 /****************
 Attraksjon side
@@ -888,6 +919,26 @@ footer > div > p{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    #kontakt-form > form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    
+    #input1 { grid-area: 1 / 1 / 2 / 2; }
+    #input2 { grid-area: 1 / 2 / 2 / 3; }
+    #input3 { grid-area: 2 / 1 / 3 / 3; }
+    #input4 { grid-area: 3 / 1 / 4 / 3; }
+    #input5 { grid-area: 4 / 1 / 5 / 3; }
+    #input6 { grid-area: 5 / 1 / 6 / 3; }
+
+    #kontakt-form{
+        width: 900px;
+        margin: 0;
     }
 
      /**********
