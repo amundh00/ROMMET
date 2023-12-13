@@ -835,10 +835,15 @@ footer > div > p{
     .atraction-cards{
         display: flex;
         flex-direction: row;
+        width: 250px;
+    }
+
+    .cards{
+        width: 250px;
+        margin: 10px;
     }
 
     .atraction-cards > a{
-        margin: 0 20px 0;
         transition: transform 0.5s;
     }
     
@@ -853,6 +858,31 @@ footer > div > p{
 
     .dag{
         margin-top: 0;
+    }
+
+    /****************
+    BILLETT SALG
+    ****************/
+
+    .billett-info{
+        width: 900px;
+    }
+
+    #confirm-main > div{
+        width: 900px;
+        margin: 20px 0 20px 0;
+    }
+
+    #confirmation-info{
+        text-align: center;
+    }
+
+    #confirmation-info > h2{
+        margin: 20px;
+    }
+
+    #confirmation-info > p{
+        margin: 20px;
     }
 
     /****************
