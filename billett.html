@@ -50,7 +50,7 @@
 
     <main id="billett-main">
         <div id="billett-salg">
-            <div class="billett-div1">
+            <div class="billett-info">
                 <p>
                     Billettene blir bare reservert i ditt navn! Du får en epost med billettene på.
                     Du betaler når du besøker oss!
@@ -82,12 +82,16 @@
                     <p>100 kr</p>
                 </div>
             </div>
-            <form id="email" action="confirm_ticket.html">
-                <p>Fyll ut nødvendig informasjon nedenfor:</p>
-                <input type="email" name="email" placeholder="Email@mail.com" required>
-                <input type="tel" placeholder="Telefon nr" required>
-                <button type="submit">Bestill</button>
-            </form>
+            <div>
+                <form id="email" action="confirm_ticket.html">
+                    <p>Fyll ut nødvendig informasjon nedenfor:</p>
+                    <input type="text" placeholder="Fornavn" required>
+                    <input type="text" placeholder="Etternavn" required>
+                    <input type="email" name="email" placeholder="Email@mail.com" required>
+                    <input type="tel" placeholder="Telefon nr" required>
+                    <button type="submit">Bestill</button>
+                </form>
+            </div>
         </div>
         <div id="selskap-salg">
 

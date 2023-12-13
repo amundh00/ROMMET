@@ -326,6 +326,8 @@ main{
 SALG
 ***************/
 
+
+
 #billett-main{
     min-height: 900px;
 }
@@ -338,7 +340,7 @@ SALG
     
 }
 
-.billett-div1{
+.billett-info{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -355,12 +357,13 @@ SALG
 
 #antall-billetter > input{
     height: 30px;
-    padding: 0;
+    padding: 2px;
     margin: 3px;
     border-radius: 5px;
     background-color: #393939;
     font-size: 20px;
     color: white;
+    border: none;
 }
 
 #priser{
@@ -403,6 +406,8 @@ SALG
     color: white;
     font-size: 20px;
     margin: 5px;
+    border: none;
+    padding: 5px;
 }
 
 #email > label{
@@ -410,6 +415,8 @@ SALG
     width: 200px;
     height: 20px;
     color: white;
+    border: none;
+    padding: 5px;
 }
 
 #email > button{
@@ -419,6 +426,8 @@ SALG
     height: 25px;
     color: white;
     background-color: #47434a;
+    border: none;
+    padding: 5px;
 }
 
 #billett-salg > div > label{
