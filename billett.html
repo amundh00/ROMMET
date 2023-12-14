@@ -111,10 +111,27 @@
             <div>
                 <form id="email" action="confirm_ticket.html">
                     <p>Fyll ut nødvendig informasjon nedenfor:</p>
-                    <input type="text" placeholder="Fornavn" required>
-                    <input type="text" placeholder="Etternavn" required>
-                    <input type="email" name="email" placeholder="Email@mail.com" required>
-                    <input type="tel" placeholder="Telefon nr" required>
+                    <input 
+                        type="text" 
+                        placeholder="Fornavn" 
+                        required 
+                        aria-label="First Name">
+                    <input 
+                        type="text" 
+                        placeholder="Etternavn" 
+                        required 
+                        aria-label="Last Name"> 
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="Email@mail.com" 
+                        required 
+                        aria-label="email adress">
+                    <input 
+                        type="tel" 
+                        placeholder="Telefon nr" 
+                        required
+                        aria-label="Telephone number">
                     <button type="submit">Bestill</button>
                 </form>
             </div>
@@ -123,14 +140,18 @@
 
         </div>
 
-        <img class="backround-img-left" src="./photos/Transparent_Jupiter.png">
+        <img 
+            class="backround-img-left" 
+            src="./photos/Transparent_Jupiter.png">
     </main>
 
     <footer>
         <div class="footer-container">
             <div>
                 <a href="index.html">
-                    <img class="header-logo" src="logos/Blueprint_logo.png" alt="">
+                    <img 
+                        class="header-logo" 
+                        src="logos/Blueprint_logo.png" alt="">
                 </a>
                 <a href="index.html">
                         <h2>ROMMET</h2>
