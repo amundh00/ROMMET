@@ -377,14 +377,14 @@ SALG
     border: none;
 }
 
-#priser{
+.priser{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 240px;
 }
 
-#priser > p{
+.priser > p{
     height: 30px;
     border: 2px;
     margin: 3px;
@@ -580,7 +580,7 @@ Attraksjon side
     font-size: 20px;
 }
 
-#accordion_label::before{
+.accordion_label::before{
     content: '+';
     margin-right: 10px;
     font-size: 25px;
@@ -604,7 +604,7 @@ input[type="radio"]{
     padding: 10px 10px 10px;
 }
 
-.accordion input[type="radio"]:checked + #accordion_label::before{
+.accordion input[type="radio"]:checked + .accordion_label::before{
     content: '-';
 }
 
