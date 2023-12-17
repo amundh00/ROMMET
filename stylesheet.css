@@ -628,11 +628,6 @@ input[type="radio"]{
     
 }
 
-.attraksjon-halvt-kort > div > img{
-    height: auto;
-    width: 100%;
-}
-
 .attraksjon-halvt-kort > div > p{
     width: 90%;
     text-align: left;
@@ -953,11 +948,6 @@ footer > div > p{
         align-items: center;
         justify-content: center;
         border-radius: 5px;
-    }
-    
-    .attraksjon-halvt-kort > div > img{
-        height: auto;
-        width: 100%;
     }
 
     .attraksjon-halvt-kort > div > p{
