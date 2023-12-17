@@ -317,8 +317,8 @@ main{
 }
 
 .card-foto{
-    height: 50%;
-    width: auto;
+    height: 175px;
+    width: 250px;
     overflow: hidden;
     border-radius: 5px;
 }
